@@ -4,6 +4,7 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
+import ImageJarren from "../components/imageJarren"
 
 const IndexPage = () => (
   <Layout>
@@ -50,6 +51,9 @@ const IndexPage = () => (
       <p>Alexa Skill that had 100,000 monthly users</p>
     </ul>
     <small>Learn more about my experience and projects on my <a href="https://linkedin.com/in/jarrensanjose" style={{textDecoration: 'none'}}>LinkedIn</a>.</small>
+    <div style={{ maxWidth: `300px`, marginTop: `2rem`, marginBottom: `1.45rem` }}>
+        <ImageJarren />
+    </div>
     <a href="https://instagram.com/kwajidog">
       <div style={{ maxWidth: `300px`, marginTop: `2rem`, marginBottom: `1.45rem` }}>
         <Image />
