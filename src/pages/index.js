@@ -19,15 +19,15 @@ const IndexPage = () => (
         <a href="https://linkedin.com/in/jarrensanjose">linkedin</a>
       </li>
       <li style={liStyle}>
-        <Link to="/bucket-list/">bucket-list</Link>
+        <Link to="/bucket-list/">bucket list</Link>
       </li>
     </ul>
     <h1>jarrensj</h1>
     <h2>Current</h2>
     <ul>
-      <li>Hanging out with my dog, Bash.</li>
-      <li>Trying my hand at my own clothing brand.</li>
-      <li>Learning how to take pictures with my camera</li>
+      <li>Hanging out with my dog, <a href="https://instagram.com/kwajidog" style={{textDecoration: 'none'}}>Bash</a>.</li>
+      <li>Wearing mismatched socks.</li>
+      <li>Learning how to take pictures with my camera.</li>
     </ul>
     <h2>Experience</h2>
     <ul>
@@ -45,19 +45,17 @@ const IndexPage = () => (
       </li>
       <p>Providing Work Release and Return to Work Notes for COVID-19 #FlattenTheCurve</p>
       <li>
-        koi fish facts
-      </li>
-      <p>Alexa Skill that has monthly users somehow haha</p>
-      <li>
         DexMD: Ask me medical questions
       </li>
       <p>Alexa Skill that had 100,000 monthly users</p>
     </ul>
-    <small>You can learn more about my experience and other projects on my <a href="https://linkedin.com/in/jarrensanjose" style={{textDecoration: 'none'}}>LinkedIn</a> </small>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-      <small>He's a dogo argentino. This is a picture of him at 8 months old!</small>
-    </div>
+    <small>Learn more about my experience and projects on my <a href="https://linkedin.com/in/jarrensanjose" style={{textDecoration: 'none'}}>LinkedIn</a>.</small>
+    <a href="https://instagram.com/kwajidog">
+      <div style={{ maxWidth: `300px`, marginTop: `2rem`, marginBottom: `1.45rem` }}>
+        <Image />
+      </div>
+    </a>
+    <small><a href="mailto:sanjose.jarren@gmail.com">Contact</a></small>
   </Layout>
 )
 

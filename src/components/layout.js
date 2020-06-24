@@ -35,7 +35,8 @@ const Layout = ({ children }) => {
       >
         <main>{children}</main>
         <footer>
-          Copyright © {new Date().getFullYear()} jarrensj
+          Copyright © {new Date().getFullYear()} <a href="https://www.jarrensj.com">jarrensj</a>
+
         </footer>
       </div>
     </>
