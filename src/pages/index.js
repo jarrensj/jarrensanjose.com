@@ -2,6 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 
 import Layout from "../components/layout"
+import Nav from "../components/nav"
 import Image from "../components/image"
 import SEO from "../components/seo"
 import ImageJarren from "../components/imageJarren"
@@ -9,20 +10,7 @@ import ImageJarren from "../components/imageJarren"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <ul style={ulStyle}>
-      <li style={liStyle}>
-        <a href="mailto:sanjose.jarren@gmail.com">email</a>
-      </li>
-      <li style={liStyle}>
-        <a href="https://instagram.com/jarrensj">instagram</a>
-      </li>
-      <li style={liStyle}>
-        <a href="https://linkedin.com/in/jarrensanjose">linkedin</a>
-      </li>
-      <li style={liStyle}>
-        <Link to="/bucket-list/">bucket list</Link>
-      </li>
-    </ul>
+    <Nav />
     <h1>jarrensj</h1>
     <h2>Current</h2>
     <ul>
@@ -64,14 +52,3 @@ const IndexPage = () => (
 )
 
 export default IndexPage
-
-const ulStyle = {
-  display: 'flex',
-  flexWrap: 'wrap',
-  listStyle: 'none',
-  marginLeft: '0'
-}
-
-const liStyle = {
-  marginRight: '1.5em'
-}

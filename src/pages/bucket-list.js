@@ -2,25 +2,13 @@ import React from "react"
 import { Link } from "gatsby"
 
 import Layout from "../components/layout"
+import Nav from "../components/nav"
 import SEO from "../components/seo"
 
 const BucketList = (props) => (
   <Layout>
     <SEO title="Jarren's bucket list" />
-    <ul style={ulStyle}>
-      <li style={liStyle}>
-        <a href="mailto:sanjose.jarren@gmail.com">email</a>
-      </li>
-      <li style={liStyle}>
-        <a href="https://instagram.com/jarrensj">instagram</a>
-      </li>
-      <li style={liStyle}>
-        <a href="https://linkedin.com/in/jarrensanjose">linkedin</a>
-      </li>
-      <li style={liStyle}>
-        <Link to="/bucket-list/">bucket-list</Link>
-      </li>
-    </ul>
+    <Nav />
     <h1>Jarren's bucket list</h1>
     <ul>
       <li><s>Win a CES Innovation Award</s></li>
@@ -57,14 +45,3 @@ const BucketList = (props) => (
 )
 
 export default BucketList
-
-const ulStyle = {
-  display: 'flex',
-  flexWrap: 'wrap',
-  listStyle: 'none',
-  marginLeft: '0'
-}
-
-const liStyle = {
-  marginRight: '1.5em'
-}
