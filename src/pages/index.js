@@ -12,12 +12,13 @@ const IndexPage = () => (
     <SEO title="Home" />
     <Nav />
     <h1>jarrensj</h1>
-    <p>I'm Jarren. I'm 25 years old. I am a full stack software engineer and I currently live in the Bay Area. </p>
+    <p>I'm Jarren. I'm 25 years old. I am a full stack software engineer and I currently live in the Bay Area. I love trading. </p>
     <h2>Current</h2>
     <ul>
       <li>Hanging out with my dog, <a href="https://instagram.com/kwajidog" style={{textDecoration: 'none'}}>Bash</a>.</li>
       <li>Wearing mismatched socks.</li>
       <li>Learning how to take pictures with my camera.</li>
+      <li>Staying at home.</li>
     </ul>
     <h2>Experience</h2>
     <ul>
@@ -28,7 +29,7 @@ const IndexPage = () => (
         <s>Lead Software Engineer at DiagnosisAI</s>
       </li>
     </ul>
-    <h2>Projects</h2>
+    <h2>Featured Projects</h2>
     <ul>
       <li>
         <a href="https://ineedanote.com">ineedanote.com</a>
