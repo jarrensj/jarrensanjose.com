@@ -15,8 +15,15 @@ const Rules = (props) => (
     <ul>
       <li>Don't trade more than your comfortable with -- leads to emotional trading</li>
       <li>Never buy break outs</li>
+      <li>Statistically, I lose if I chase over upper vwap band</li>
+      <li>Don't sell until power hour or the next morning if you are wrong</li>
+      <li>Put top swings in my charts display</li>
       <li>Do not overstay welcome</li>
+      <li>Don't need to chase an existing one, there will always be more</li>
       <li>Alway trust yourself over others</li>
+      <li>Do not scalp news unless you are really sure of it. </li>
+      <li>Always withdraw profits from day trading account and put into swing account.</li>
+      <li>Trust yourself -- you put in the work.</li>
     </ul>
     <h2>Health (mental and physical)</h2>
     <ul>
@@ -40,10 +47,6 @@ const Rules = (props) => (
       <li>Do not eat sushi if it's not $100 worth or more. It's a waste of money and mercury intake.</li>
       <li>Do not pay for tacos outside of SoCal (ahem in NorCal). It's a waste of money and you will regret it.</li>
       <li></li>
-    </ul>
-    <h2>Love</h2>
-    <ul>
-      <li>.</li>
     </ul>
 
     <Link to="/">Go back to the homepage</Link>
