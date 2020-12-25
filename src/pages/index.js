@@ -12,7 +12,7 @@ const IndexPage = () => (
     <SEO title="Home" />
     <Nav />
     <h1>jarrensj</h1>
-    <p>I'm Jarren. I'm 26 years old. I am a full stack software engineer and I currently live in the Bay Area. I love trading. </p>
+    <p>I'm Jarren. I'm 26 years old. I am a software engineer and I currently live in the Bay Area. I love trading. </p>
     <h2>Current</h2>
     <ul>
       <li>Hanging out with my dog, <a href="https://dogoargentino.dog" style={{textDecoration: 'none'}}>Bash</a>.</li>
@@ -47,7 +47,7 @@ const IndexPage = () => (
     <div style={{ maxWidth: `300px`, marginTop: `2rem`, marginBottom: `1.45rem` }}>
         <ImageJarren />
     </div>
-    <a href="https://instagram.com/kwajidog">
+    <a href="https://dogoargentino.dog">
       <div style={{ maxWidth: `300px`, marginTop: `2rem`, marginBottom: `1.45rem` }}>
         <Image />
       </div>
