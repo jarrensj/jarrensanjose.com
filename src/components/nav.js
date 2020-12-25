@@ -16,9 +16,8 @@ const Nav = () => (
       <a href="https://docs.google.com/document/d/1wGJXaHWwPDMBMRmuAhoWFZUAjDOR0blQVs62ZwJ8BRk/edit?usp=sharing">resume</a>
     </li>
     <li style={liStyle}>
-      <Link to="/bucket-list/">bucket list</Link>
+      <a href="https://twitter.com/jarrensj">twitter</a>
     </li>
-
   </ul>
 )
 
