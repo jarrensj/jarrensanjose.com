@@ -12,23 +12,15 @@ const IndexPage = () => (
     <SEO title="Home" />
     <Nav />
     <h1>jarrensj</h1>
-    <p>I'm Jarren. I'm 26 years old. I am a software engineer and I currently live in the Bay Area. I love trading. </p>
+    <p>I'm Jarren. I'm 26 years old. I am a software engineer and I currently live in the Bay Area.</p>
     <h2>Current</h2>
     <ul>
+      <li>Trading.</li>
       <li>Hanging out with my dog, <a href="https://dogoargentino.dog" style={{textDecoration: 'none'}}>Bash</a>.</li>
       <li>Wearing mismatched socks.</li>
       <li>Learning how to take pictures with my camera.</li>
-      <li>Trading.</li>
       <li>Staying at home.</li>
-    </ul>
-    <h2>Experience</h2>
-    <ul>
-      <li>
-        Software Engineer at Amazon Lab126
-      </li>
-      <li>
-        <s>Lead Software Engineer at DiagnosisAI</s>
-      </li>
+      <li><a href="https://www.nbatopshot.com/r/jarrensj" style={{textDecoration: 'none'}}>nbatopshot</a></li>
     </ul>
     {/*
     <h2>Featured Projects</h2>
