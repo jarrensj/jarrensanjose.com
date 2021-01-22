@@ -12,7 +12,12 @@ const IndexPage = () => (
     <SEO title="Home" />
     <Nav />
     <h1>jarrensj</h1>
-    <p>I'm Jarren. I'm 26 years old. I am a software engineer and I currently live in the Bay Area. I love BLACKPINK.</p>
+    <p>
+      I'm Jarren. I'm 26 years old. I am a software engineer and I currently live in the Bay Area. I love BLACKPINK. 
+      <br /><br />
+      Here's my wallet(s): jarrensj.eth, kwaji.eth
+      
+    </p>
     <h2>Current</h2>
     <ul>
       <li>Trading (<a href="https://public.com/jarrensj" style={{textDecoration: 'none'}}>Public portfolio</a>).</li>
