@@ -16,6 +16,9 @@ const Nav = () => (
       <a href="https://twitter.com/jarrensj">twitter</a>
     </li>
     <li style={liStyle}>
+      <a href="https://twitch.tv/jarrensj">twitch</a>
+    </li>
+    <li style={liStyle}>
       <a style={{color: 'white'}} href="https://docs.google.com/document/d/1wGJXaHWwPDMBMRmuAhoWFZUAjDOR0blQVs62ZwJ8BRk/edit?usp=sharing">resume</a>
     </li>
   </ul>
