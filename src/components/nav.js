@@ -13,10 +13,10 @@ const Nav = () => (
       <a href="https://linkedin.com/in/jarrensanjose">linkedin</a>
     </li>
     <li style={liStyle}>
-      <a href="https://docs.google.com/document/d/1wGJXaHWwPDMBMRmuAhoWFZUAjDOR0blQVs62ZwJ8BRk/edit?usp=sharing">resume</a>
+      <a href="https://twitter.com/jarrensj">twitter</a>
     </li>
     <li style={liStyle}>
-      <a href="https://twitter.com/jarrensj">twitter</a>
+      <a style={{color: 'white'}} href="https://docs.google.com/document/d/1wGJXaHWwPDMBMRmuAhoWFZUAjDOR0blQVs62ZwJ8BRk/edit?usp=sharing">resume</a>
     </li>
   </ul>
 )
