@@ -15,8 +15,7 @@ const IndexPage = () => (
     <p>
       I'm Jarren. I'm 26 years old. I am a software engineer and I currently live in the Bay Area. I love BLACKPINK. 
       <br /><br />
-      Here's my wallet(s): jarrensj.eth, kwaji.eth
-      
+      Here's my wallet: jarrensj.eth
     </p>
     <h2>Current</h2>
     <ul>
